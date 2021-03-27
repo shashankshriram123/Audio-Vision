@@ -1,0 +1,171 @@
+html, body {
+  margin: 0;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+}
+canvas {
+  display: block;
+}
+body{
+  background: url('../images/finalBackground.svg') no-repeat;
+  background-size: cover;
+  padding-bottom: 0%;
+}
+
+#one {
+  display: block;
+  width:800px;
+  height:600px;
+}
+
+#two {
+  display: block;
+  margin-top: 10px;
+  width:800px;
+  height:600px;
+}
+
+
+/* Options in index.html */
+.options
+{
+  display: inline-block;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.option
+{
+  float:left;
+  padding: 50px;
+}
+
+.emoji {
+  font-size: 100px;
+  vertical-align: middle;
+  line-height: 2;
+  clear: both;
+  margin: auto;
+}
+
+.button, a:link, a:visited {
+  background-color: #185586; 
+  color:#FFF;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 12px;
+  border: none;
+
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ 
+  
+  margin-top:auto;
+  cursor: pointer;
+ 
+  justify-content: center;
+
+
+}
+.container{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20%;
+}
+#logo{
+  font-size: 6rem;
+  font-family: 'Spartan';
+}
+.newTEXT{
+  text-align: center;
+  width:100%;
+  font-size: 1.5rem;
+  font-family: 'Spartan';
+}
+
+
+
+.description
+{
+  margin: auto;
+  margin-top: -50px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  letter-spacing: 0.6px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  }
+
+  .button2, a:link, a:visited {
+    background-color: #185586; 
+    color:#FFF;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 12px;
+    border: none;
+    right:75%;
+    left:25%;
+    padding: 10px;
+    
+  
+  }
+.waitlist-form{
+  width: 700px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  color:rgb(0, 136, 199);
+  font-family: 'Spartan';
+}
+.waitlist-form h1{
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin:20px 0;
+}
+.waitlist-form p{
+  font-size: 20px;
+  margin: 15px 0;
+}
+.waitlist-form input{
+  font-size: 16px;
+  width: 100%;
+  padding: 15px 10px;
+  border: 0;
+  border-radius: 15px;
+}
+.waitlist-form button{
+  font-size: 19px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border-radius:15px ;
+
+
+}
+.button3, a:link, a:visited {
+  background-color: #185586; 
+  color:#FFF;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 12px;
+  border: none;
+  right:75%;
+  left:25%;
+  padding: 10px;
+  
+
+}
